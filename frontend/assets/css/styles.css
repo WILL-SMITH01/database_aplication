@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.card-title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-title i {
+    color: #4a90e2;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #357abd;
+}
+
+.form-control:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.25);
+}
+
+.hidden {
+    display: none;
+}
+
+.balance-info {
+    margin: 20px 0;
+}
